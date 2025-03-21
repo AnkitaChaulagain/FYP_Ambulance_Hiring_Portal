@@ -1,0 +1,252 @@
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d2c9eb;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
+/* Dashboard wrapper */
+.dashboard {
+    display: flex;
+    width: 100%;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    padding: 10px 15px;
+    border-bottom: 1px solid #444;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.sidebar ul .active {
+    background-color: #111;
+    border-radius: 5px;
+}
+
+/* Logout Button */
+.logout {
+    width: 100%;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.logout:hover {
+    background-color: darkred;
+}
+
+
+/* Layout container */
+.dashboard {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Content area */
+.content {
+    margin-left: 250px; /* Equal to sidebar width */
+    padding: 20px;
+    flex-grow: 1;
+    background-color: #f9f9f9;
+}
+
+/* Styling for service list */
+.service-list {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Table styling */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #ff4500;
+    color: white;
+}
+
+/* Buttons */
+.add-btn, .edit-btn, .delete-btn {
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.add-btn {
+    background-color: #28a745;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.edit-btn {
+    background-color: #007bff;
+    color: white;
+    margin-right: 5px;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.add-btn:hover {
+    background-color: #218838;
+}
+
+.edit-btn:hover {
+    background-color: #0056b3;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+/* Form styling for edit_service */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: auto;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cancel-btn {
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+/* Form styling for add_service */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745; /* Green for add */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.cancel-btn {
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.cancel-btn:hover {
+    background-color: #555;
+}
