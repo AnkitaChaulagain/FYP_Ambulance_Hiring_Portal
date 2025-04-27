@@ -31,7 +31,7 @@ include('includes/dbconnection.php');
 
     <!-- =======================================================
   * Template Name: Medicio
-  * Updated: Jan 29 2024 with Bootstrap v5.3.2
+  * Updated: april 08 2025 with Bootstrap v5.3.2
   * Template URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
@@ -87,7 +87,7 @@ include('includes/dbconnection.php');
                 </form>
                 <?php
 if(isset($_POST['search']))
-{ 
+{
 
 $sdata=$_POST['searchdata'];
   ?>

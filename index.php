@@ -227,8 +227,8 @@ while ($row=mysqli_fetch_array($ret)) {
                             <input type="tel" class="form-control" name="phone" id="phone"
                                 placeholder="Enter Relative Phone Number" required>
                         </div>
-                    </div>
-                    <div class="row">
+                    <!-- </div> -->
+                    <!-- <div class="row">
                         <div class="col-md-4 form-group mt-3">
                             <input type="date" name="hdate" class="form-control datepicker" id="hdate"
                                 placeholder="Hiring Date" required>
@@ -236,7 +236,7 @@ while ($row=mysqli_fetch_array($ret)) {
                         <div class="col-md-4 form-group mt-3">
                             <input type="time" name="htime" class="form-control datepicker" id="htime"
                                 placeholder="Hiring Time" required>
-                        </div>
+                        </div> -->
                         <div class="col-md-4 form-group mt-3">
                             <select name="ambulancetype" id="ambulancetype" class="form-select">
                                 <option value="">Select Type of Ambulance</option>
@@ -260,7 +260,7 @@ while ($row=mysqli_fetch_array($ret)) {
                         </div>
 
                         <div class="col-md-4 form-group mt-3 mt-md-0">
-                            <input type="text" class="form-control" name="state" id="state" placeholder="Enter Symptoms"
+                            <input type="text" class="form-control" name="symptoms" id="symptoms" placeholder="Enter Symptoms"
                                 required>
                         </div>
                     </div>
@@ -274,6 +274,7 @@ while ($row=mysqli_fetch_array($ret)) {
                             name="submit" class="btn btn-primary">Submit</button></div>
                 </form>
 
+            </div>
             </div>
         </section><!-- End Appointment Section -->
 

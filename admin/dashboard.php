@@ -18,6 +18,7 @@ if (strlen($_SESSION['eahpaid']==0)) {
     function hideURLbar() {
         window.scrollTo(0, 1);
     }
+
     </script>
     <!-- bootstrap-css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -262,8 +263,10 @@ $rejectedreq=mysqli_num_rows($query8);
             <?php include_once('includes/footer.php');?>
             <!-- / footer -->
         </section>
+        <!-- blocks displays a summary count of ambulance-related data -->
         <!--main content end-->
     </section>
+
     <script src="js/bootstrap.js"></script>
     <script src="js/jquery.dcjqaccordion.2.7.js"></script>
     <script src="js/scripts.js"></script>
@@ -271,6 +274,7 @@ $rejectedreq=mysqli_num_rows($query8);
     <script src="js/jquery.nicescroll.js"></script>
     <!--[if lte IE 8]><script language="javascript" type="text/javascript" src="js/flot-chart/excanvas.min.js"></script><![endif]-->
     <script src="js/jquery.scrollTo.js"></script>
+
     <!-- morris JavaScript -->
     <script>
     $(document).ready(function() {
@@ -371,6 +375,7 @@ $rejectedreq=mysqli_num_rows($query8);
 
     });
     </script>
+
     <!-- calendar -->
     <script type="text/javascript" src="js/monthly.js"></script>
     <script type="text/javascript">
